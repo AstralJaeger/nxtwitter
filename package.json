@@ -1,0 +1,23 @@
+{
+  "name": "nxtwitter",
+  "version": "0.0.1-a",
+  "description": "",
+  "main": "dist/index.js",
+  "author": "AstralJaeger <astraljaeger@pm.me>",
+  "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "test": "jest ...",
+    "lint": "",
+    "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "koa": "^2.13.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/koa": "^2",
+    "@types/node": "^17.0.43",
+    "typescript": "^4.7.3"
+  }
+}
